@@ -1,4 +1,4 @@
-package FormDesigner.Package;
+package FormDesigner;
 
 {$R *.res}
 {$R *.dres}
@@ -26,6 +26,8 @@ package FormDesigner.Package;
 {$IMAGEBASE $400000}
 {$DEFINE RELEASE}
 {$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Form Designer Components'}
+{$LIBSUFFIX AUTO}
 {$IMPLICITBUILD ON}
 
 requires
@@ -33,9 +35,9 @@ requires
   vcl;
 
 contains
-  FormDesigner.Interfaces in 'FormDesigner.Interfaces.pas',
-  FormDesigner.DragHandles in 'FormDesigner.DragHandles.pas',
-  FormDesigner.Designer in 'FormDesigner.Designer.pas',
-  FormDesigner.Utils in 'FormDesigner.Utils.pas';
+  FormDesigner.Designer in '..\src\FormDesigner.Designer.pas',
+  FormDesigner.DragHandles in '..\src\FormDesigner.DragHandles.pas',
+  FormDesigner.Interfaces in '..\src\FormDesigner.Interfaces.pas',
+  FormDesigner.Utils in '..\src\FormDesigner.Utils.pas';
 
 end.

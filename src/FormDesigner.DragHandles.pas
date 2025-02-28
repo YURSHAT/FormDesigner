@@ -3,7 +3,7 @@ unit FormDesigner.DragHandles;
 interface
 
 uses Classes, Controls, Graphics, Windows, Messages, Forms, SysUtils, StdCtrls,
-  RTTI, System.Generics.Collections, FormDesigner.Interfaces,
+  RTTI, System.Types, System.Generics.Collections, FormDesigner.Interfaces,
   FormDesigner.Utils;
 
 type

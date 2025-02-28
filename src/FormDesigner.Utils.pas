@@ -2,7 +2,8 @@ unit FormDesigner.Utils;
 
 interface
 
-uses Classes, Controls, Windows, SysUtils, IOUtils, WinApi.Messages;
+uses Classes, Controls, Windows, SysUtils, IOUtils, WinApi.Messages,
+	System.Types;
 
 type
 

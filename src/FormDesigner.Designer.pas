@@ -3,7 +3,7 @@
 interface
 
 uses Classes, Controls, Graphics, Windows, Messages, Forms, SysUtils, StdCtrls,
-  System.Generics.Collections, Vcl.AppEvnts, TypInfo, ExtCtrls,
+  System.Generics.Collections, Vcl.AppEvnts, TypInfo, ExtCtrls, System.Types,
   System.DateUtils, RTTI, System.SyncObjs, FormDesigner.Interfaces,
   FormDesigner.Utils, FormDesigner.DragHandles;
 
